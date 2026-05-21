@@ -1,0 +1,11 @@
+{
+  "name": "transfer-tracker",
+  "version": "1.0.0",
+  "description": "Hotel Transfer Tracker PWA",
+  "scripts": {
+    "install": "npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev": "npm start --prefix server & npm run dev --prefix client"
+  }
+}
